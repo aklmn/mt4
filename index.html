@@ -1,47 +1,37 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>WebTerminal for the MetaTrader 4 and MetaTrader 5 platforms</title>
-<style type="text/css">
-body {margin: 0; padding: 0; font-family: Arial, Tahoma; font-size: 16px; color: #000; background-color: #FFF; min-width: 1010px; }
-.content { box-shadow: 0 0 20px rgba(0,0,0,0.5); position: fixed; width: 100%; top: 5px; bottom: 60px; }
-.footer {text-align: center; padding: 20px; color: #0A0A0A; font-size: 14px; position: fixed; bottom: 0; width: 100%; }
-</style>
-</head>
-<body>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>WebTerminal for the MetaTrader 4 and MetaTrader 5 platforms</title>
+    <style type="text/css">
+      body {margin: 0; padding: 0; font-family: Arial, Tahoma; font-size: 16px; color: #000; background-color: #FFF; min-width: 1010px; }
+      .content { box-shadow: 0 0 20px rgba(0,0,0,0.5); position: fixed; width: 100%; top: 5px; bottom: 5px; }
+      .footer {text-align: center; padding: 20px; color: #0A0A0A; font-size: 14px; position: fixed; bottom: 0; width: 100%; }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <!-- Web Terminal Code Start -->
+      <iframe src="https://trade.mql5.com/trade?demo_all_servers=1&amp;startup_mode=login&amp;servers[]=OctaFX-Demo2&amp;servers[]=OctaFX-Real&amp;lang=en&amp;save_password=on" allowfullscreen="allowfullscreen" style="width: 100%; height: 100%; border: none;"></iframe>
+      <!-- Web Terminal Code End -->
 
-<div class="content">
-  <!-- Web Terminal Code Start -->
-  <iframe src="https://trade.mql5.com/trade?demo_all_servers=1&amp;startup_mode=login&amp;servers[]=OctaFX-Demo2&amp;servers[]=OctaFX-Real&amp;lang=en&amp;save_password=on" allowfullscreen="allowfullscreen" style="width: 100%; height: 100%; border: none;"></iframe>
-  <!-- Web Terminal Code End -->
-  
-  <!-- Web Terminal Code Start 
-  <p>
-            let's get some penny
-        </p>
-        <p>
-            Server: OctaFX-Demo2 <br>
-            Login:  81302406 <br>
-            Kata sandi: 8Y#yhUga <br>
-        </p>
-
-        <div id="webterminal" style="width:100%;height:600px;"></div>
-        <script type="text/javascript" src="https://trade.mql5.com/trade/widget.js"></script>
-        <script type="text/javascript">
-            new MetaTraderWebTerminal( "webterminal", {
-                version: 4,
-                servers: ["OctaFX-Demo2","OctaFX-Real"],
-                login: "81302406",
-                server: "OctaFX-Demo2",
-                demoAllServers: false,
-                startMode: "login",
-                language: "en",
-                colorScheme: "green_on_black"
-            } );
-        </script>
--- Web Terminal Code End -->
-</div>
-<div class="footer"> Copyright 2020-2021, Gueh || OctaFX-Demo2 :: 81302406 :: 8Y#yhUga   </div>
-</body>
+      <!-- Web Terminal Code Start 
+            <div id="webterminal" style="width:100%;height:600px;"></div>
+            <script type="text/javascript" src="https://trade.mql5.com/trade/widget.js"></script>
+            <script type="text/javascript">
+                new MetaTraderWebTerminal( "webterminal", {
+                    version: 4,
+                    servers: ["OctaFX-Demo2","OctaFX-Real"],
+                    login: "81302406",
+                    server: "OctaFX-Demo2",
+                    demoAllServers: false,
+                    startMode: "login",
+                    language: "en",
+                    colorScheme: "green_on_black"
+                } );
+            </script>
+    -- Web Terminal Code End -->
+    </div>
+    <div class="footer"> Copyright 2020-2021, Gueh || OctaFX-Demo2 :: 81302406 :: 8Y#yhUga   </div>
+  </body>
 </html>
